@@ -1,0 +1,1 @@
+      return res.status(200).json(r.length  ? JSON.parse(r[0].dados) : null);
